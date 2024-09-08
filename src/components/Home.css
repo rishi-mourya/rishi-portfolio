@@ -1,0 +1,51 @@
+/* Home.css */
+.animation-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    animation: gradientAnimation 10s linear infinite alternate;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background: linear-gradient(45deg, #ff6699, #ffcc66, #66ff99, #3399ff);
+    }
+    25% {
+        background: linear-gradient(45deg, #ffcc66, #66ff99, #3399ff, #ff6699);
+    }
+    50% {
+        background: linear-gradient(45deg, #66ff99, #3399ff, #ff6699, #ffcc66);
+    }
+    75% {
+        background: linear-gradient(45deg, #3399ff, #ff6699, #ffcc66, #66ff99);
+    }
+    100% {
+        background: linear-gradient(45deg, #ff6699, #ffcc66, #66ff99, #3399ff);
+    }
+}
+
+@keyframes bounceAnimation {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) translateY(-20%) scale(0.8);
+    }
+}
+
+.animation-background::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ff6699, #ffcc66, #66ff99, #0461bd);
+    animation: bounceAnimation 6s ease-in-out infinite alternate;
+}
+

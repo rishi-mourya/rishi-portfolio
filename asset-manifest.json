@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/rishi-mourya/rishi-mourya-portfolio.git/static/css/main.7d8a78d6.css",
-    "main.js": "/rishi-mourya/rishi-mourya-portfolio.git/static/js/main.8518a881.js",
-    "static/js/787.61f74e33.chunk.js": "/rishi-mourya/rishi-mourya-portfolio.git/static/js/787.61f74e33.chunk.js",
-    "static/media/rishi_mourya.jpg": "/rishi-mourya/rishi-mourya-portfolio.git/static/media/rishi_mourya.41adfe84ca35bba359a2.jpg",
-    "static/media/cv.pdf": "/rishi-mourya/rishi-mourya-portfolio.git/static/media/cv.9cc53158318395233eed.pdf",
-    "index.html": "/rishi-mourya/rishi-mourya-portfolio.git/index.html",
-    "main.7d8a78d6.css.map": "/rishi-mourya/rishi-mourya-portfolio.git/static/css/main.7d8a78d6.css.map",
-    "main.8518a881.js.map": "/rishi-mourya/rishi-mourya-portfolio.git/static/js/main.8518a881.js.map",
-    "787.61f74e33.chunk.js.map": "/rishi-mourya/rishi-mourya-portfolio.git/static/js/787.61f74e33.chunk.js.map"
+    "main.css": "/rishi-mourya/rishi-portfolio.git/static/css/main.7d8a78d6.css",
+    "main.js": "/rishi-mourya/rishi-portfolio.git/static/js/main.d1bc78f9.js",
+    "static/js/787.61f74e33.chunk.js": "/rishi-mourya/rishi-portfolio.git/static/js/787.61f74e33.chunk.js",
+    "static/media/rishi_mourya.jpg": "/rishi-mourya/rishi-portfolio.git/static/media/rishi_mourya.41adfe84ca35bba359a2.jpg",
+    "static/media/cv.pdf": "/rishi-mourya/rishi-portfolio.git/static/media/cv.9cc53158318395233eed.pdf",
+    "index.html": "/rishi-mourya/rishi-portfolio.git/index.html",
+    "main.7d8a78d6.css.map": "/rishi-mourya/rishi-portfolio.git/static/css/main.7d8a78d6.css.map",
+    "main.d1bc78f9.js.map": "/rishi-mourya/rishi-portfolio.git/static/js/main.d1bc78f9.js.map",
+    "787.61f74e33.chunk.js.map": "/rishi-mourya/rishi-portfolio.git/static/js/787.61f74e33.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d8a78d6.css",
-    "static/js/main.8518a881.js"
+    "static/js/main.d1bc78f9.js"
   ]
 }

@@ -126,7 +126,8 @@ const Hero = () => {
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-primary-600 to-primary-800 p-1 animate-glow">
                 <div className="w-full h-full rounded-full bg-dark-900 flex items-center justify-center overflow-hidden">
                   <img
-                    src={personalData.avatar}
+                  src={`${import.meta.env.BASE_URL}${personalData.avatar}`}
+                    // src={personalData.avatar}
                     alt={personalData.name}
                     className="w-full h-full object-cover"
                     onError={(e) => {

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "position": "Flutter Developer",
+    "company": "NovasArc Consulting Pvt Ltd",
+    "location": "Remote",
+    "type": "Full-time",
+    "startDate": "Oct 2023",
+    "endDate": "Present",
+    "current": true,
+    "description": "Leading Flutter development projects, implementing scalable mobile solutions, and mentoring junior developers.",
+    "achievements": [
+      "Developed and deployed multiple production-ready Flutter applications",
+      "Implemented real-time features using Firebase and WebRTC",
+      "Optimized app performance resulting in 40% faster load times",
+      "Collaborated with cross-functional teams for seamless project delivery"
+    ],
+    "technologies": ["Flutter", "Firebase", "REST API", "Git"]
+  },
+  {
+    "id": 2,
+    "position": "Flutter Developer Intern",
+    "company": "NovasArc Consulting Pvt Ltd",
+    "location": "Remote",
+    "type": "Internship",
+    "startDate": "Mar 2023",
+    "endDate": "Sep 2023",
+    "current": false,
+    "description": "Worked on Flutter-based website monitoring platform and gained hands-on experience in mobile app development.",
+    "achievements": [
+      "Built Upbot monitoring platform from scratch",
+      "Learned industry best practices for mobile development",
+      "Contributed to codebase optimization and bug fixes",
+      "Participated in code reviews and agile development processes"
+    ],
+    "technologies": ["Flutter", "Firebase", "Dart", "API Integration"]
+  },
+  {
+    "id": 3,
+    "position": "Full Stack Developer",
+    "company": "Self-Employed",
+    "location": "Moradabad, India",
+    "type": "Freelance",
+    "startDate": "Sep 2021",
+    "endDate": "Present",
+    "current": true,
+    "description": "Building custom web and mobile applications for clients across various industries, specializing in e-commerce and business automation.",
+    "achievements": [
+      "Delivered 10+ successful projects including e-commerce platforms",
+      "Built Shrinathji Astrology platform with payment integration",
+      "Developed Indian Shop e-commerce with 500+ active users",
+      "Maintained 100% client satisfaction rate"
+    ],
+    "technologies": ["React", "Django", "Flutter", "Firebase", "MySQL"]
+  }
+]

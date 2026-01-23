@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Physio Customer App",
+    "description": "Flutter mobile application with integrated voice and video call functionality specifically designed for physiotherapy customers, enabling seamless remote consultations.",
+    "technologies": ["Flutter", "Firebase", "WebRTC", "Dart"],
+    "image": "/images/physio-app.png",
+    "category": "Mobile App",
+    "github": "",
+    "live": "",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Upbot - Website Monitoring",
+    "description": "Flutter-based comprehensive website monitoring platform developed during internship at NovasArc, providing real-time uptime tracking and performance analytics.",
+    "technologies": ["Flutter", "Firebase", "REST API", "Cloud Functions"],
+    "image": "/images/upbot.png",
+    "category": "Web Platform",
+    "github": "",
+    "live": "",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Banking Management System",
+    "description": "Desktop application built with Python Tkinter featuring complete banking operations including account creation, transactions, balance inquiries, and account recovery mechanisms.",
+    "technologies": ["Python", "Tkinter", "MySQL", "SQLite"],
+    "image": "/images/banking-system.png",
+    "category": "Desktop App",
+    "github": "",
+    "live": "",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Job Search App",
+    "description": "Large-scale Flutter application providing comprehensive job search functionality including full-time jobs, internships, and part-time opportunities with advanced filtering capabilities.",
+    "technologies": ["Flutter", "Firebase", "REST API", "Provider"],
+    "image": "/images/job-search.png",
+    "category": "Mobile App",
+    "github": "",
+    "live": "",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "title": "Shrinathji Astrology Web",
+    "description": "Fully responsive astrology platform featuring user authentication, paid course management, and integrated Payphone payment gateway for seamless transactions.",
+    "technologies": ["React", "Firebase", "Payphone", "Material UI"],
+    "image": "/images/astrology-web.png",
+    "category": "Web Application",
+    "github": "",
+    "live": "https://shrinathjiastrology.com/",
+    "featured": true
+  },
+  {
+    "id": 6,
+    "title": "Indian Shop - E-Commerce",
+    "description": "Full-featured Django e-commerce platform with Cash on Delivery, Net Banking integration, wishlist functionality, and Google Maps location services for delivery tracking.",
+    "technologies": ["Django", "Python", "PostgreSQL", "Bootstrap", "Google Maps API"],
+    "image": "/images/indian-shop.png",
+    "category": "E-Commerce",
+    "github": "",
+    "live": "https://rishimourya8700.pythonanywhere.com/",
+    "featured": true
+  }
+]

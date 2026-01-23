@@ -1,0 +1,31 @@
+[
+  {
+    "category": "Frontend Development",
+    "skills": [
+      { "name": "Flutter", "level": 90, "icon": "SiFlutter" },
+      { "name": "ReactJS", "level": 85, "icon": "SiReact" },
+      { "name": "HTML5", "level": 95, "icon": "SiHtml5" },
+      { "name": "CSS3", "level": 90, "icon": "SiCss3" },
+      { "name": "JavaScript", "level": 85, "icon": "SiJavascript" },
+      { "name": "Bootstrap", "level": 85, "icon": "SiBootstrap" },
+      { "name": "Sass", "level": 80, "icon": "SiSass" },
+      { "name": "Material UI", "level": 85, "icon": "SiMui" }
+    ]
+  },
+  {
+    "category": "Backend & Database",
+    "skills": [
+      { "name": "Python", "level": 85, "icon": "SiPython" },
+      { "name": "Firebase", "level": 90, "icon": "SiFirebase" },
+      { "name": "MySQL", "level": 80, "icon": "SiMysql" },
+      { "name": "C++", "level": 75, "icon": "SiCplusplus" }
+    ]
+  },
+  {
+    "category": "Tools & Technologies",
+    "skills": [
+      { "name": "GitHub", "level": 85, "icon": "SiGithub" },
+      { "name": "WordPress", "level": 80, "icon": "SiWordpress" }
+    ]
+  }
+]

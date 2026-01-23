@@ -426,3 +426,9 @@ deployment procedure
 3. add these line in 'scripts"
  "predeploy": "npm run build",
      "deploy": "gh-pages -d dist",
+4. 
+git add .
+git commit -m "Update portfolio"
+git push
+npm run deploy
+

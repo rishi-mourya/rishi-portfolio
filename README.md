@@ -415,3 +415,14 @@ run this project  --> react and tailwind and vite
 
 npm install
 npm run dev
+
+
+deployment procedure
+1. npm install gh-pages --save-dev
+2. need to add vite.config
+
+  base: '/rishi-portfolio/',
+
+3. add these line in 'scripts"
+ "predeploy": "npm run build",
+     "deploy": "gh-pages -d dist",

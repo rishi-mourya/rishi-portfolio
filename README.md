@@ -427,6 +427,9 @@ deployment procedure
  "predeploy": "npm run build",
      "deploy": "gh-pages -d dist",
 4. 
+npm run build
+npm run deploy
+
 git add .
 git commit -m "Update portfolio"
 git push

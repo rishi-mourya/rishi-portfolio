@@ -30,7 +30,7 @@ const Footer = () => {
               <span className="text-gradient">Rishi Mourya</span>
             </h3>
             <p className="text-dark-400 text-sm mb-4">
-              Full Stack Developer passionate about creating beautiful and functional web experiences.
+              Full Stack Developer passionate about creating beautiful and functional web and mobile experiences.
             </p>
             <div className="flex gap-3">
               {socialLinks.map((link) => (
@@ -96,9 +96,9 @@ const Footer = () => {
             <p>
               © {currentYear} {personalData.name}. All rights reserved.
             </p>
-            <p className="flex items-center gap-1">
+            {/* <p className="flex items-center gap-1">
               Made with <FiHeart className="text-primary-500" /> using React & Tailwind CSS
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

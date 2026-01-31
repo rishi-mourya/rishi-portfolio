@@ -33,7 +33,7 @@ const Skills = () => {
               Skills & <span className="text-gradient">Technologies</span>
             </h2>
             <div className="w-20 h-1 bg-primary-600 mx-auto"></div>
-            <p className="mt-4 text-dark-400">Technologies I work with regularly</p>
+            <p className="mt-4 text-dark-400">I work with Flutter regularly</p>
           </div>
 
           {/* Skills Grid */}

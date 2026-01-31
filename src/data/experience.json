@@ -1,22 +1,31 @@
 [
   {
-    "id": 1,
-    "position": "Flutter Developer",
-    "company": "NovasArc Consulting Pvt Ltd",
-    "location": "Remote",
-    "type": "Full-time",
-    "startDate": "Oct 2023",
-    "endDate": "Present",
-    "current": true,
-    "description": "Leading Flutter development projects, implementing scalable mobile solutions, and mentoring junior developers.",
-    "achievements": [
-      "Developed and deployed multiple production-ready Flutter applications",
-      "Implemented real-time features using Firebase",
-      "Optimized app performance resulting in 40% faster load times",
-      "Collaborated with cross-functional teams for seamless project delivery"
-    ],
-    "technologies": ["Flutter", "Firebase", "REST API", "Git"]
-  },
+  "id": 1,
+  "position": "Flutter Developer",
+  "company": "NovasArc Consulting Pvt. Ltd.",
+  "location": "Remote",
+  "employmentType": "Full-time",
+  "startDate": "Oct 2023",
+  "endDate": "Present",
+  "isCurrentRole": true,
+  "description": "Leading Flutter development initiatives by building scalable, high-performance mobile applications and mentoring junior developers to ensure clean architecture and best practices.",
+  "achievements": [
+  "Designed, developed, and deployed multiple production-ready Flutter applications",
+  "Led development of a large-scale job search platform for both web and mobile using Flutter",
+  "Developed a school management application for Android and iOS platforms",
+  "Implemented real-time chat functionality using WebSockets to enable live user communication",
+  "Integrated Firebase services for real-time data synchronization and application features",
+  "Optimized application performance, achieving approximately 30% faster load times",
+  "Collaborated closely with designers, backend engineers, and product teams to deliver high-quality solutions"
+],
+  "technologies": [
+    "Flutter",
+    "Firebase",
+    "REST APIs",
+    "WebSockets",
+    "Git"
+  ]
+},
   {
     "id": 2,
     "position": "Flutter Developer Intern",
@@ -36,21 +45,28 @@
     "technologies": ["Flutter", "Firebase", "Dart", "API Integration"]
   },
   {
-    "id": 3,
-    "position": "Full Stack Developer",
-    "company": "Self-Employed",
-    "location": "Moradabad, India",
-    "type": "Freelance",
-    "startDate": "Sep 2021",
-    "endDate": "Present",
-    "current": true,
-    "description": "Building custom web and mobile applications for clients across various industries, specializing in e-commerce and business automation.",
-    "achievements": [
-      "Delivered 10+ successful projects including e-commerce platforms",
-      "Built Shrinathji Astrology platform with payment integration",
-      "Developed Indian Shop e-commerce with 500+ active users",
-      "Maintained 100% client satisfaction rate"
-    ],
-    "technologies": ["React", "Django", "Flutter", "Firebase", "MySQL"]
-  }
+  "id": 3,
+  "position": "Full Stack Developer",
+  "company": "Self-Employed (Freelance)",
+  "location": "Moradabad, India",
+  "employmentType": "Freelance",
+  "startDate": "Sep 2021",
+  "endDate": "Present",
+  "isCurrentRole": true,
+  "description": "Building custom web and mobile applications for clients across multiple industries, with a strong focus on e-commerce solutions and business process automation.",
+  "achievements": [
+    "Successfully delivered 7+ client projects, including full-scale e-commerce platforms",
+    "Designed and developed the Shrinathji Astrology platform with secure payment gateway integration",
+    "Built the Indian Shop e-commerce application featuring user authentication, account management, form validation, and an admin panel",
+    "Maintained a 100% client satisfaction rate through timely delivery and quality solutions"
+  ],
+  "technologies": [
+    "React",
+    "Django",
+    "Flutter",
+    "Bootstrap",
+    "SQLite3"
+  ]
+}
+
 ]

@@ -25,21 +25,43 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const handleNavClick = (e, href) => {
-    e.preventDefault()
-    const element = document.querySelector(href)
-    if (element) {
-      const offset = 80
-      const elementPosition = element.getBoundingClientRect().top
-      const offsetPosition = elementPosition + window.pageYOffset - offset
+  // const handleNavClick = (e, href) => {
+  //   e.preventDefault()
+  //   const element = document.querySelector(href)
+  //   if (element) {
+  //     const offset = 80
+  //     const elementPosition = element.getBoundingClientRect().top
+  //     const offsetPosition = elementPosition + window.pageYOffset - offset
 
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      })
-    }
-    setIsOpen(false)
-  }
+  //     window.scrollTo({
+  //       top: offsetPosition,
+  //       behavior: 'smooth'
+  //     })
+  //   }
+  //   setIsOpen(false)
+  // }
+const handleNavClick = (e, href) => {
+  e.preventDefault()
+
+  const id = href.replace('#', '')
+  const element = document.getElementById(id)
+
+  if (!element) return
+
+  // Close menu first
+  setIsOpen(false)
+
+  // Wait for animation to complete
+  setTimeout(() => {
+    const offset = 80
+    const offsetPosition = element.offsetTop - offset
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    })
+  }, 300) // 300ms = match your motion duration
+}
 
   return (
     <motion.nav
